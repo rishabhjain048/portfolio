@@ -1,20 +1,28 @@
-import About from "./Components/About/About"
-import Contact from "./Components/Contact/Contact"
-import Experience from "./Components/Experience/Experience"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Layout from "./Components/Layout"
 import Home from "./Components/Home/Home"
-import Navbar from "./Components/Navbar/Navbar"
-import ProjectCard from "./Components/Projects/ProjectCard"
-
+import About from "./Components/About/About"
+import Experience from "./Components/Experience/Experience"
+import ProjectCard from './Components/Project/Project'
+import Contact from "./Components/Contact/Contact"
 const App = () => {
   return (
-    <div>
-     <Navbar/>
-     <Home/>
-     <About/>
-     <ProjectCard/>
-     <Experience />
-     <Contact/>
-    </div>
+   <BrowserRouter>
+   <Routes>
+    <Route path="/" element={<Layout/>}>
+    <Route index element={<Home/>}/>
+    <Route path="/About" element={<About/>}/>
+    <Route path="/Experience" element={<Experience/>}/>
+    <Route path="Project" element={<ProjectCard/>}/>
+    <Route path="Contact" element={<Contact/>}/>
+    </Route>
+    </Routes>
+    <About />
+    <Experience/>
+    <ProjectCard/>
+    <Contact/>
+    </BrowserRouter>
+    
   )
 }
 
