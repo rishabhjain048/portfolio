@@ -6,6 +6,7 @@ import About from "./Components/About/About"
 import Experience from "./Components/Experience/Experience"
 import ProjectCard from './Components/Project/Project'
 import Contact from "./Components/Contact/Contact"
+// import Navbar from "./Components/Navbar/Navbar"
 const App = () => {
   return (
    <BrowserRouter>
@@ -18,10 +19,10 @@ const App = () => {
     <Route path="/contact" element={<Contact/>}/>
     </Route>
     </Routes>
-    {/* <About />
+    <About />
     <Experience/>
     <ProjectCard/>
-    <Contact/> */}
+    <Contact/>
     </BrowserRouter>
     
   )

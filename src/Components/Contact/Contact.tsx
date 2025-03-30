@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div
-      className="min-h-[50vh] h-auto flex opacity0 items-center justify-center bg-cover bg-center px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 py-12"
+      className="min-h-[100vh] h-auto flex opacity0 items-center justify-center bg-cover bg-center px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 py-12"
       style={{
         backgroundImage:
           "url('https://res.cloudinary.com/db8s5neff/image/upload/v1743322207/cont_iblmnr.avif')", 
