@@ -17,10 +17,10 @@ const App = () => {
     <Route path="/contact" element={<Contact/>}/>
     </Route>
     </Routes>
-    <About />
+    {/* <About />
     <Experience/>
     <ProjectCard/>
-    <Contact/>
+    <Contact/> */}
     </BrowserRouter>
     
   )
