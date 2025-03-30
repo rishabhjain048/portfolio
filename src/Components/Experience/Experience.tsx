@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Briefcase, FileText } from "lucide-react";
 
 const experiences = [
