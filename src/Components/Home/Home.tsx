@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div
       id="About"
-      className="text-gray-900 flex flex-col md:flex-row items-center justify-between w-screen h-[70vh] p-6 md:p-16 bg-white"
+      className="text-gray-900 flex flex-col md:flex-row items-center justify-between w-screen h-[70vh] p-6 md:p-16 bg-gray-100 "
     >
       {/* Text Section */}
       <div className="md:w-1/2 text-center md:text-left">
